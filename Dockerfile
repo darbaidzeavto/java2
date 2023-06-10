@@ -13,3 +13,5 @@ EXPOSE 8080
 COPY --from=maven_build  /tmp/target/hello-world-0.1.0.jar /data/hello-world-0.1.0.jar
 USER 1002
 CMD java -jar data/hello-world-0.1.0.jar
+
+
