@@ -18,5 +18,3 @@ CMD java -jar data/hello-world-0.1.0.jar
 
 
 
-
-
