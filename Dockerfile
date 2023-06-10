@@ -8,7 +8,7 @@ RUN mvn clean package
 
 FROM eclipse-temurin:11
 
-MAINTAINER ttsartsidze@gmail.com
+MAINTAINER darbaidze
 EXPOSE 8080
 COPY --from=maven_build  /tmp/target/hello-world-0.1.0.jar /data/hello-world-0.1.0.jar
 USER 1002
